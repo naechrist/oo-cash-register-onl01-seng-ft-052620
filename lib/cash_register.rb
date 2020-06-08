@@ -78,5 +78,7 @@ class CashRegister
     end 
     item_names
   end 
-
+def void_last_tranaction
+    @total -= @price 
+  end
 end
