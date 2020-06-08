@@ -3,7 +3,7 @@ class CashRegister
 
   def initialize(discount = nil)
     self.total = 0
-    self.discount = discount
+    self.discount = discount if 
     self.purchases = []
   end
 
